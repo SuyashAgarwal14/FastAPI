@@ -13,7 +13,7 @@ def authenticate_user(username: str, password: str) -> bool:
     return USERS.get(username) == password
 
 def create_token(username: str) -> str:
-    token = str(uuid.uuid4())
+    token = f"{username}-{uuid.uuid4()}"
     TOKENS[token] = username
     return token
 
