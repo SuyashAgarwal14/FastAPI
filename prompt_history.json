@@ -1,0 +1,9 @@
+{
+  "alice": [
+    {
+      "timestamp": "2025-07-07T12:16:13",
+      "prompt": "Tell me your name.",
+      "response": "I'm not sure, but let's find out together."
+    }
+  ]
+}
